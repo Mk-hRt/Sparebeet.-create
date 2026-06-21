@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>創作譜面置き場</title>
+
+<style>
+body{
+    font-family:sans-serif;
+    background:linear-gradient(135deg,#00e1fa,#fe9901);
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+}
+
+.card{
+    background:white;
+    max-width:700px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.button{
+    display:inline-block;
+    padding:12px 20px;
+    background:#00bcd4;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.button:hover{
+    opacity:.8;
+}
+</style>
+
 </head>
 <body>
 
 <h1>🎵 創作譜面置き場</h1>
 
-<ul>
-<li><a href="doremifa.json">ドレミファロンド</a></li>
-</ul>
+<div class="card">
+
+<h2>ドレミファロンド</h2>
+
+<p>
+アーティスト：40mP
+</p>
+
+<p>
+難易度：Hard 15
+</p>
+
+<p>
+コンセプト：ウォーミングアップ譜面
+</p>
+
+<p>
+階段・折り返し・同時押しをバランス良く配置した練習向け譜面です。
+</p>
+
+<a class="button" href="doremifa.json">
+📥 JSONを開く
+</a>
+
+</div>
 
 </body>
 </html>
