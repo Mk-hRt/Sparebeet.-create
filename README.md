@@ -1,1 +1,1 @@
-# Sparebeet 創作譜面　(mk-hRtの隠れ家)
+# Sparebeet 創作譜面置き場
